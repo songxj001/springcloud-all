@@ -1,0 +1,18 @@
+server:
+  port: ${port:8761} #端口号
+spring:
+  banner:
+    location: braner.txt #自定义启动braner
+  application:
+    name: eureka-server #服务名
+eureka:
+  server:
+    enable-self-preservation: false #关闭保护机制
+  instance:
+    hostname: localhost #服务注册地址
+  client:
+    #通过register-with-eureka：false 和 fetch-registry：false 来表明自己是一个eureka server.
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

@@ -1,0 +1,19 @@
+server:
+  port: ${port:8764}
+spring:
+  application:
+    name: zuul-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    api-user:
+      path: /api-user/**
+      serviceId: user-server
+      stripPrefix: false #重点注意 不加这行代码 动态路由404
+    api-order:
+      path: /api-order/**
+      serviceId: order-server
+      stripPrefix: false #重点注意 不加这行代码 动态路由404

@@ -1,0 +1,20 @@
+	DD             DD    D           D                 D
+    DD             DD    D          DD DD            DDDDDD
+    DD            DDD DD D        DDDD  D          DDDDDDDD
+   DD DD        DDDD   D D         DDDDDD      DDDDDDD D
+   D   DD         DDD D  D         DDD DDDD        DDDDDD
+  DDDDD DD    DDDDDD  DD D DD    DDDD DDDDD       DD DDD
+ DD DD  DDDD   DDDDDD D DDDDD  DDDDDDDDDD          DD  D
+DD D DDD DDDD   D DD  DDDD     DD D D   D          DDD D
+D  DDD      D    DDDDDD  D       DDDDDDDD          D D D
+     D D        DDD      D       D  D  DDD         D DDD
+   DDDD         D D      D      D  DD DDDDD        DD  D
+   D D            D      D      D DDDD   DDDD      D D D
+  DDDDDDD         D      D         DD              D  DD
+                       D                             D
+11	888888 666666 000000 000000 4    4 555555 888888 4    4 22222 666666
+11	8    8 6      0    0 0    0 4    4 5      8    8 4    4     2 6
+11  888888 666666 0    0 0    0 444444 555555 888888 444444 22222 666666
+11  8    8 6    6 0    0 0    0      4      5 8    8      4 2     6    6
+11  888888 666666 000000 000000      4 555555 888888      4 22222 666666
+

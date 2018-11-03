@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
         <module name="jpa" />
+        <module name="kafka-consumer" />
+        <module name="kafka-producer" />
         <module name="order" />
         <module name="springcloud" />
         <module name="user" />

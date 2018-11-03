@@ -1,0 +1,17 @@
+server:
+  port: ${prot:8766}
+spring:
+  application:
+    name: kafka-producer
+  kafka:
+    #指定kafka 代理地址，可以多个
+    bootstrap-servers: localhost:9092
+    producer:
+      #重试次数
+      retries: 0
+      #每次批量发送消息的数量
+      batch-size: 16384
+      buffer-memory: 33554432
+      #指定消息key和消息体的编解码方式
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer

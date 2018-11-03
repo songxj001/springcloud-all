@@ -3,6 +3,8 @@
 用户微服务：user-server : 8763 user-server
 路由网关：zuul-server : 8764
 web : web-server : 8765
+kakfa生产者：kafka-producer : 8766
+kafka消费者：kafka-consumer : 8767
 
 
 feign:

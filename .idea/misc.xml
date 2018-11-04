@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/jpa/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-producer/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch/pom.xml" />
       </list>
     </option>
   </component>

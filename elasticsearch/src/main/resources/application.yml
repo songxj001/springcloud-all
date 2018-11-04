@@ -1,0 +1,13 @@
+server:
+  port: ${port:8768}
+spring:
+  application:
+    name: elasticsearch
+  data:
+    elasticsearch:
+      ##节点名字，默认elasticsearch
+      #cluster-name: elasticsearch
+      #节点地址，多个节点用逗号隔开 端口号注意是tcp端口号 默认9300 不要写http端口9200
+      cluster-nodes: localhost:9300
+      repositories:
+        enabled: true

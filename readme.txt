@@ -5,6 +5,7 @@
 web : web-server : 8765
 kakfa生产者：kafka-producer : 8766
 kafka消费者：kafka-consumer : 8767
+elasticsearch : 8768
 
 
 feign:

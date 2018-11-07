@@ -12,6 +12,7 @@
         <module name="kafka-consumer" />
         <module name="kafka-producer" />
         <module name="order" />
+        <module name="springboot-admin" />
         <module name="springcloud" />
         <module name="user" />
         <module name="web" />

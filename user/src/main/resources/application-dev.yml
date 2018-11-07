@@ -6,6 +6,10 @@ spring:
     location: banner.txt
   application:
     name: user-server
+  boot:
+      admin:
+        client:
+          url: http://localhost:8769
 eureka:
   client:
     service-url:
@@ -13,3 +17,8 @@ eureka:
 feign:
   hystrix:
     enabled: true #开启断路器
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
